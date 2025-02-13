@@ -101,14 +101,14 @@ idPrecomps:
     - :label from_cancun :abi f(uint) 0x0A     # Added in Cancun
 
     # Accounts where we do not expect to find precompiles
-    - :label no :abi f(uint) 0x0B
-    - :label no :abi f(uint) 0x0C
-    - :label no :abi f(uint) 0x0D
-    - :label no :abi f(uint) 0x0E
-    - :label no :abi f(uint) 0x0F
+    - :label from_prague :abi f(uint) 0x0B
+    - :label from_prague :abi f(uint) 0x0C
+    - :label from_prague :abi f(uint) 0x0D
+    - :label from_prague :abi f(uint) 0x0E
+    - :label from_prague :abi f(uint) 0x0F
 
-    - :label no     :abi f(uint) 0x10
-    - :label no     :abi f(uint) 0x11
+    - :label from_prague     :abi f(uint) 0x10
+    - :label from_prague     :abi f(uint) 0x11
     - :label no     :abi f(uint) 0x12
     - :label no     :abi f(uint) 0x13
     - :label no     :abi f(uint) 0x14
@@ -403,6 +403,19 @@ idPrecomps:
           # Normal gas cost when there isn't a precompile
           0x00: 0x01
 
+  - indexes:
+      data: 
+      - :label from_prague
+      gas: !!int -1
+      value: !!int -1
+    network: 
+    - 'Cancun'
+    result:
+      cccccccccccccccccccccccccccccccccccccccc:
+        storage:
+          # Normal gas cost when there isn't a precompile
+          0x00: 0x01
+
 
   # Uncomment here when we add the Cancun fork
 
@@ -413,6 +426,19 @@ idPrecomps:
       value: !!int -1
     network: 
     - '>=Cancun'
+    result:
+      cccccccccccccccccccccccccccccccccccccccc:
+        storage:
+          # High gas when there is a precompile
+          0x00: 0x00
+          
+  - indexes:
+      data: 
+      - :label from_prague
+      gas: !!int -1
+      value: !!int -1
+    network: 
+    - '>=Prague'
     result:
       cccccccccccccccccccccccccccccccccccccccc:
         storage:
