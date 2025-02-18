@@ -1,0 +1,24 @@
+{
+    "insufficient_balance_blob_tx": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x00",
+                        "balance": "0x04e830",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            }
+        ]
+    }
+}
