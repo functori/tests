@@ -1,0 +1,30 @@
+{
+    "transactionIntinsicBug_Paris": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0x02faf094",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0a",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            }
+        ]
+    }
+}

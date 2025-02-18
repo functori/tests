@@ -1,74 +1,44 @@
 {
-  "ExtCodeCopyTargetRangeLongerThanCodeTests": {
-    "_info" : {
-      "comment": "Uses EXTCODECOPY to copy 32 bytes of code into a 64 byte range of memory and ensures that the last 32 bytes of the memory range are zeroed out"
-    },
-    "env": {
-      "currentCoinbase": "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-      "currentDifficulty": "0x020000",
-      "currentGasLimit": "0x7fffffffffffffff",
-      "currentNumber": "2675000",
-      "currentTimestamp": "1000"
-    },
-    "expect": [
-      {
-        "indexes": {
-          "data": -1,
-          "gas": -1,
-          "value": -1
-        },
-        "network": [
-          ">=Cancun"
-        ],
-        "result": {
-          "aaaf5374fce5edbc8e2a8697c15331677e6ebf0b": {
-            "storage": {
-              "0x00": "0x1122334455667788991011121314151617181920212223242526272829303132",
-              "0x01": "0x00",
-              "0x02": "0x00",
-              "0x03": "0x00"
+    "ExtCodeCopyTargetRangeLongerThanCodeTests": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0xAAAF5374Fce5eDBc8E2a8697C15331677E6Ebf0b": {
+                        "nonce": "0x00",
+                        "balance": "0x1b58",
+                        "code": "0x61123460205260406000600073eeef5374fce5edbc8e2a8697c15331677e6ebf0b3c60005160005560205160015561567860605260406000604073a94f5374fce5edbc8e2a8697c15331677e6ebf0b3c60405160025560605160035500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x1122334455667788991011121314151617181920212223242526272829303132",
+                            "0x03": "0x00",
+                            "0x02": "0x00",
+                            "0x01": "0x00"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0xfffffffffffffffffffffffffff7fd23",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xeeEF5374Fce5edbc8E2A8697C15331677E6eBf0B": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x1122334455667788991011121314151617181920212223242526272829303132000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
             }
-          }
-        }
-      }
-    ],
-    "pre": {
-      "a94f5374fce5edbc8e2a8697c15331677e6ebf0b": {
-        "balance": "0xffffffffffffffffffffffffffffffff",
-        "code": "",
-        "nonce": "0",
-        "storage": {
-        }
-      },
-      "aaaf5374fce5edbc8e2a8697c15331677e6ebf0b": {
-        "balance": "7000",
-        "code": "{ (MSTORE 32 0x1234) (EXTCODECOPY 0xeeef5374fce5edbc8e2a8697c15331677e6ebf0b 0 0 64) [[0]] (MLOAD 0) [[1]] (MLOAD 32) (MSTORE 96 0x5678) (EXTCODECOPY 0xa94f5374fce5edbc8e2a8697c15331677e6ebf0b 64 0 64) [[2]] (MLOAD 64) [[3]] (MLOAD 96)}",
-        "nonce": "0",
-        "storage": {
-        }
-      },
-      "eeef5374fce5edbc8e2a8697c15331677e6ebf0b": {
-        "balance": "0",
-        "code": ":raw 0x1122334455667788991011121314151617181920212223242526272829303132",
-        "nonce": "1",
-        "storage": {
-        }
-      }
-    },
-    "transaction": {
-      "data": [
-        ""
-      ],
-      "gasLimit": [
-        "400000"
-      ],
-      "gasPrice": "10",
-      "nonce": "0",
-      "secretKey": "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-      "to": "aaaf5374fce5edbc8e2a8697c15331677e6ebf0b",
-      "value": [
-        "0"
-      ]
+        ]
     }
-  }
 }

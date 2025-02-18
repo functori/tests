@@ -1,72 +1,42 @@
 {
-    "RawCallCodeGasMemory" : {
-        "env" : {
-            "currentCoinbase" : "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "10000000",
-            "currentNumber" : "1",
-            "currentTimestamp" : "1000"
-        },
-        "expect" : [
+    "RawCallCodeGasMemory": {
+        "expect": [
             {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : -1,
-                    "value" : -1
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
                 },
-                "network" : [ ">=Cancun"],
-                "result" : {
-		            "094f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-		                "storage" : {
-		                }
-		            },
-		            "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-		                "storage" : {
-		                    "0x01" : "0x6408",
-		                    "0x02" : "0x752e"
-		                }
-		            }
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x5a600052611f406000611f406000600073094f5374fce5edbc8e2a8697c15331677e6ebf0b617530f2505a6000510360015500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0x6408",
+                            "0x02": "0x752e"
+                        }
+                    },
+                    "0x094F5374FCE5EdbC8E2A8697C15331677E6eBF0B": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x5a60025500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0xe8d49a938c",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
                 }
             }
-        ],
-        "pre" :
-        {
-	    "094f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "",
-                "code" : "{ [[2]] (GAS) }",
-                "nonce" : "0",
-                "storage" : {
-                }
-            },
-            "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "1000000000000",
-                "code" : "",
-                "nonce" : "0",
-                "storage" : {
-                }
-            },
-    	    "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0",
-		        "nonce" : "0",
-		        "code" : "{ [0] (GAS) (CALLCODE 30000 0x094f5374fce5edbc8e2a8697c15331677e6ebf0b 0 0 8000 0 8000) [[1]] (SUB @0 (GAS)) }",
-		        "storage": {
-		        }
-            }
-        },
-        "transaction" : {
-            "data" : [
-                ""
-            ],
-            "gasLimit" : [
-                "500000"
-            ],
-            "gasPrice" : "10",
-            "nonce" : "0",
-            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "b94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "value" : [
-                "0"
-            ]
-        }
+        ]
     }
 }

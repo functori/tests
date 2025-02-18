@@ -1,80 +1,98 @@
 {
-    "OutOfGasPrefundedContractCreation" : {
-        "env" : {
-            "currentCoinbase" : "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "1000000000",
-            "currentNumber" : "1",
-            "currentTimestamp" : "1000"
-        },
-        "expect" : [
+    "OutOfGasPrefundedContractCreation": {
+        "expect": [
             {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : [0, 1],
-                    "value" : -1
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
                 },
-                "network" : [">=Cancun"],
-                "//comment" : "Contract creation OOG on create, and on internal opcode inside create",
-                "result" : {
-            	    "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                       	"nonce" : "0x01"
-            	    },
-            	    "6295ee1b4f6dd65047762f924ecd367c17eabf8f" : {
-                      	"balance" : "0x01"
-              	    }
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0x64e2EbD6405AF8cB348AEc519084D3FFF42EBba6": {
+                        "nonce": "0x01",
+                        "balance": "0x01",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x112233"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x6295eE1B4F6dD65047762F924Ecd367c17eaBf8f": {
+                        "nonce": "0x02",
+                        "balance": "0x01",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0x0f31d9e9",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
                 }
             },
             {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : [2],
-                    "value" : -1
+                "indexes": {
+                    "data": 0,
+                    "gas": 1,
+                    "value": 0
                 },
-                "network" : [">=Cancun"],
-                "//comment" : "Contract creation OOG on internal opcode inside create",
-                "result" : {
-            	    "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                       	"nonce" : "0x01"
-            	    },
-            	    "6295ee1b4f6dd65047762f924ecd367c17eabf8f" : {
-                       	"balance" : "0x02"
-              	    }
-                }
-            }
-        ],
-        "pre" : {
-            "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0x0f424000",
-                "code" : "0x",
-                "nonce" : "0x00",
-                "storage" : {
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0x6295eE1B4F6dD65047762F924Ecd367c17eaBf8f": {
+                        "nonce": "0x00",
+                        "balance": "0x01",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0x0f3854f0",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
                 }
             },
-            "6295ee1b4f6dd65047762f924ecd367c17eabf8f" : {
-                "balance" : "0x01",
-                "code" : "0x",
-                "nonce" : "0x00",
-                "storage" : {
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 2,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "result": {
+                    "0x64e2EbD6405AF8cB348AEc519084D3FFF42EBba6": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x6295eE1B4F6dD65047762F924Ecd367c17eaBf8f": {
+                        "nonce": "0x02",
+                        "balance": "0x02",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xa94f5374Fce5edBC8E2a8697C15331677e6EbF0B": {
+                        "nonce": "0x01",
+                        "balance": "0x0f33c6d7",
+                        "code": "0x000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
                 }
             }
-	},
-        "transaction" : {
-            "data" : [
-                "{ (CREATE 1 0 (lll (seq (sstore 0 0x112233) (STOP) ) 0)) (STOP) }"
-            ],
-            "gasLimit" : [
-                "154000",
-                "65000",
-                "95000"
-            ],
-            "gasPrice" : "10",
-            "nonce" : "0",
-            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "",
-            "value" : [
-                "1"
-            ]
-        }
+        ]
     }
 }
