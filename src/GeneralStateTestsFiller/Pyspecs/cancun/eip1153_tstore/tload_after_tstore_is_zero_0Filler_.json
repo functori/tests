@@ -1,0 +1,38 @@
+{
+    "tload_after_tstore_is_zero": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x6104d260015d6104d260045d6104d27001000000000000000000000000000000005d6104d27ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5d60005c60005560035c6003556fffffffffffffffffffffffffffffffff5c6fffffffffffffffffffffffffffffffff557ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd5c7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd5560025c60025560055c6005557001000000000000000000000000000000015c700100000000000000000000000000000001557fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5c7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x02": "0x00",
+                            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe": "0xffff",
+                            "0x05": "0x00",
+                            "0x03": "0x00",
+                            "0x04": "0xffff",
+                            "0x0100000000000000000000000000000000": "0xffff",
+                            "0x00": "0x00",
+                            "0x01": "0xffff",
+                            "0xffffffffffffffffffffffffffffffff": "0x00",
+                            "0x0100000000000000000000000000000001": "0x00",
+                            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "0x00",
+                            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd": "0x00"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

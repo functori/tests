@@ -1,0 +1,42 @@
+{
+    "CreateTransactionCallData": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {}
+            }
+        ]
+    }
+}

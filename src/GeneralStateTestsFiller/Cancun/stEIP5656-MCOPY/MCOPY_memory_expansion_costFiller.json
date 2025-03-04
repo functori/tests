@@ -1,0 +1,534 @@
+{
+    "MCOPY_memory_expansion_cost": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 21,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 20,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 19,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 18,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 17,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 16,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 15,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xfa11ed"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 13,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 12,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 11,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 10,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 9,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 8,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 7,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 6,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0580"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 5,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0300"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 4,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0300"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 3,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0300"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0300"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0300"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 14,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x00"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000c0DE": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x60015f5560116040356020355f356016565b595f55005b5e56000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x00"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

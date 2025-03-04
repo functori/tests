@@ -1,0 +1,36 @@
+{
+    "mcopy_huge_memory_expansion": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x36600060003760016000600036600060006102006ffffffffffffffffffffffffffffffffef155000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x01"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000000200": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x36600060003760006000600160007ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5ef3000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            }
+        ]
+    }
+}

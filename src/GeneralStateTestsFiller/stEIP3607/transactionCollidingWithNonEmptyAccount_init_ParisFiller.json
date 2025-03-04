@@ -1,0 +1,54 @@
+{
+    "transactionCollidingWithNonEmptyAccount_init_Paris": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 3,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.SENDER_NOT_EOA",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.SENDER_NOT_EOA",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.SENDER_NOT_EOA",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.SENDER_NOT_EOA",
+                "result": {}
+            }
+        ]
+    }
+}

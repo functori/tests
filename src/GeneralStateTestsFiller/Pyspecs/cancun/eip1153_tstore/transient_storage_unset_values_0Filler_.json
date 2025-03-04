@@ -1,0 +1,31 @@
+{
+    "transient_storage_unset_values": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x60005c60005560015c60015560025c6002557001000000000000000000000000000000005c700100000000000000000000000000000000557fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5c7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x02": "0x00",
+                            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "0x00",
+                            "0x01": "0x00",
+                            "0x00": "0x00",
+                            "0x0100000000000000000000000000000000": "0x00"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

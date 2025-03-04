@@ -1,0 +1,18 @@
+{
+    "invalid_blob_hash_versioning_single_tx": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.TYPE_3_TX_INVALID_BLOB_VERSIONED_HASH",
+                "result": {}
+            }
+        ]
+    }
+}

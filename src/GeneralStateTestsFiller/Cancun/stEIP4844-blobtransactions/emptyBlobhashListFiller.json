@@ -1,0 +1,18 @@
+{
+    "emptyBlobhashList": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.TYPE_3_TX_ZERO_BLOBS",
+                "result": {}
+            }
+        ]
+    }
+}

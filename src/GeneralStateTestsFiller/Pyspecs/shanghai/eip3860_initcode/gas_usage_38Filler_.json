@@ -1,0 +1,22 @@
+{
+    "gas_usage": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Shanghai"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x6295eE1B4F6dD65047762F924Ecd367c17eaBf8f": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "blob_tx_attribute_calldata_opcodes": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x01",
+                        "code": "0x36600055000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x00"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

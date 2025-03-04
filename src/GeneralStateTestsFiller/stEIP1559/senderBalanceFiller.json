@@ -1,0 +1,27 @@
+{
+    "senderBalance": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x333160005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0de0b6b3a6fe6060"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

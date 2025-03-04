@@ -1,0 +1,18 @@
+{
+    "lowFeeCap": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_MAX_FEE_PER_GAS",
+                "result": {}
+            }
+        ]
+    }
+}

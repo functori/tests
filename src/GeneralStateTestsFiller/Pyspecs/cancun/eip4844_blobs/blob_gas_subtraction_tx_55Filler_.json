@@ -1,0 +1,31 @@
+{
+    "blob_gas_subtraction_tx": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x323160005560006000600060006064325af13231600155000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0xc60064",
+                            "0x00": "0xc60000"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

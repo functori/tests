@@ -1,0 +1,25 @@
+{
+    "point_evaluation_precompile_gas_tx_to": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x000000000000000000000000000000000000000A": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

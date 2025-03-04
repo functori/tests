@@ -1,82 +1,53 @@
 {
-    "Create2OOGafterInitCode" : {
-        "env" : {
-            "currentCoinbase" : "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x020000",
-            "currentGasLimit" : "10000000",
-            "currentNumber" : "1",
-            "currentTimestamp" : "1000"
-        },
-        "expect" : [
+    "Create2OOGafterInitCode": {
+        "expect": [
             {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : 0,
-                    "value" : -1
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
                 },
-                "network" : [">=Cancun"],
-                "result" : {
-		    "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-		        "storage" : {
-		            "0x01" : "0"
-		        }
-		    },
-		    "0x6878b140f875209c82ab4d5f083b55947299ef6b" : {
-		        "shouldnotexist" : "1"
-		    }
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x6878b140F875209c82Ab4D5F083B55947299EF6B": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x6d6460016001556000526005601bf36000526000600e60126000f500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
                 }
             },
-	    {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : 1,
-                    "value" : -1
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 1,
+                    "value": 0
                 },
-                "network" : [">=Cancun"],
-                "result" : {
-		    "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-		        "storage" : {
-		            "0x01" : "0"
-		        }
-		    },
-		    "0x6878b140f875209c82ab4d5f083b55947299ef6b" : {
-		        "code" : "0x6001600155"
-		    }
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x6d6460016001556000526005601bf36000526000600e60126000f500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
                 }
             }
-        ],
-        "pre" :
-        {
-            "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "1000000000000",
-                "code" : "",
-                "nonce" : "0",
-                "storage" : {
-                }
-            },
-	    "b94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "0",
-		"nonce" : "0",
-		"//code" : "(SSTORE 1 1) RETURN",
-		"code" : "{ (MSTORE 0 0x6460016001556000526005601bf3) (CREATE2 0 18 14 0) }",
-		"storage": {
-		}
-            }
-        },
-        "transaction" : {
-            "data" : [
-                ""
-            ],
-            "gasLimit" : [
-                "54000", "55000"
-            ],
-            "gasPrice" : "10",
-            "nonce" : "0",
-            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "b94f5374fce5edbc8e2a8697c15331677e6ebf0b",
-            "value" : [
-                "0"
-            ]
-        }
+        ]
     }
 }

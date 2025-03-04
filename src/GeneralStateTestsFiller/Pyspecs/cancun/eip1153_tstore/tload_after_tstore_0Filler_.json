@@ -1,0 +1,31 @@
+{
+    "tload_after_tstore": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x600060005d60005c600055600160015d60015c600155600260025d60025c6002557001000000000000000000000000000000007001000000000000000000000000000000005d7001000000000000000000000000000000005c700100000000000000000000000000000000557fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5d7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff5c7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x02": "0x02",
+                            "0x01": "0x01",
+                            "0x0100000000000000000000000000000000": "0x0100000000000000000000000000000000",
+                            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff",
+                            "0x00": "0x00"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "NoSrcAccountCreate1559": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 1,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 1,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 1,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 1,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 1,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 1,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 2,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 2,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 2,
+                    "value": 1
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INSUFFICIENT_ACCOUNT_FUNDS|TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 2,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 2,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 2,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INTRINSIC_GAS_TOO_LOW",
+                "result": {}
+            }
+        ]
+    }
+}

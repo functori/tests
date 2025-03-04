@@ -1,0 +1,31 @@
+{
+    "CREATE2_HighNonce": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0xffffffffffffffff",
+                        "balance": "0x00",
+                        "code": "0x6460016000f360d81b600090815260058180f56000556001805500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x00",
+                            "0x01": "0x01"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "warm_coinbase_call_out_of_gas": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Shanghai"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x6000600060006000416000f450000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x600060006000600060006101006077f1600055000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x01"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "blob_type_tx_pre_fork": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Shanghai"
+                ],
+                "expectException": "TransactionException.TYPE_3_TX_PRE_FORK|TransactionException.TYPE_3_TX_ZERO_BLOBS",
+                "result": {}
+            }
+        ]
+    }
+}

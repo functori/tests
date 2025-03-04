@@ -1,0 +1,59 @@
+{
+    "create2CodeSizeLimit": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x6000356000526000368180f56000556001805500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0x01",
+                            "0x00": "0x81c305016ab9ca56033a07cc37e7a30fc3e079ac"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xb94f5374fCe5EDbc8E2A8697c15331677E6EBf0B": {
+                        "nonce": "0x01",
+                        "balance": "0x00",
+                        "code": "0x6000356000526000368180f56000556001805500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0x01",
+                            "0x00": "0x00"
+                        }
+                    },
+                    "0x5d9D425c4caA5efD40b909F9eD0eC39362398d66": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

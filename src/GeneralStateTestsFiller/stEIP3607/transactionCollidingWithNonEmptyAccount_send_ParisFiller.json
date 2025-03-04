@@ -1,0 +1,18 @@
+{
+    "transactionCollidingWithNonEmptyAccount_send_Paris": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.SENDER_NOT_EOA",
+                "result": {}
+            }
+        ]
+    }
+}

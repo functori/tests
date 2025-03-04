@@ -1,0 +1,606 @@
+{
+    "calldatasize": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 19,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0101"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 14,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0101"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 9,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0101"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 4,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x0101"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 18,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x31"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 13,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x31"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 8,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x31"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 3,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x31"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 17,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x21"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 12,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x21"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 7,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x21"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 2,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x21"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 16,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x11"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 11,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x11"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 6,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x11"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 1,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x11"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 15,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x02"
+                        }
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 10,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x02"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 5,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x02"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            },
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000001000": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9ce",
+                        "code": "0x3660005500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x02"
+                        }
+                    },
+                    "0xCcCCccccCCCCcCCCCCCcCcCccCcCCCcCcccccccC": {
+                        "nonce": "0x00",
+                        "balance": "0x0ba1a9ce0ba1a9cf",
+                        "code": "0x602435600020600052600060006004356000600061100062fffffff100000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    }
+                }
+            }
+        ]
+    }
+}

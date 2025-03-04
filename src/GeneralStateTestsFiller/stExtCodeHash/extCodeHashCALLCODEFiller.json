@@ -1,88 +1,53 @@
 {
-    "extCodeHashCALLCODE" : {
-	"_info" : {
-	    "comment": "EXTCODEHASH of an account during a CALLCODE"
-	},
-        "env" : {
-            "currentCoinbase" : "2adc25665018aa1fe0e6bc666dac8fc2697ff9ba",
-            "currentDifficulty" : "0x20000",
-            "currentGasLimit" : "1000000",
-            "currentNumber" : "1",
-            "currentTimestamp" : "1000"
-        },
-        "expect" : [
+    "extCodeHashCALLCODE": {
+        "expect": [
             {
-                "indexes" : {
-                    "data" : -1,
-                    "gas" : -1,
-                    "value" : -1
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
                 },
-                "network" : [">=Cancun"],
-                "result" : {
-                    "095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
-                        "balance" : "1000000000000000001",
-                        "storage" : {
-                            "0x00" : "0x56570de287d73cd1cb6092bb8fdee6173974955fdef345ae579ee9f475ea7432",
-            			    "0x01" : "0x02"
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0xdEADBEeF00000000000000000000000000000000": {
+                        "nonce": "0x00",
+                        "balance": "0x0de0b6b3a7640000",
+                        "code": "0x73deadbeef000000000000000000000000000000013f60005260206000f300000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xdeadbeef"
                         }
+                    },
+                    "0xAeAdBeEF00000000000000000000000000000000": {
+                        "nonce": "0x00",
+                        "balance": "0x0de0b6b3a7640000",
+                        "code": "0x73deadbeef000000000000000000000000000000013b60005260206000f300000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0xdeadbeef"
+                        }
+                    },
+                    "0x095E7BAea6a6c7c4c2DfeB977eFac326aF552d87": {
+                        "nonce": "0x00",
+                        "balance": "0x0de0b6b3a7640001",
+                        "code": "0x6020600060006000600073deadbeef00000000000000000000000000000000620249f0f2506020600060003e6000516000556020600060006000600073aeadbeef00000000000000000000000000000000620249f0f2506020600060003e60005160015500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0x02",
+                            "0x00": "0x56570de287d73cd1cb6092bb8fdee6173974955fdef345ae579ee9f475ea7432"
+                        }
+                    },
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0xdEADbeEF00000000000000000000000000000001": {
+                        "nonce": "0x00",
+                        "balance": "0x0de0b6b3a7640000",
+                        "code": "0x1234000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {}
                     }
                 }
             }
-        ],
-        "pre" : {
-            "095e7baea6a6c7c4c2dfeb977efac326af552d87" : {
-                "balance" : "1000000000000000000",
-                "code" : "{ (CALLCODE 150000 0xdeadbeef00000000000000000000000000000000 0 0 0 0 32) (RETURNDATACOPY 0 0 32) [[0]] (MLOAD 0) (CALLCODE 150000 0xaeadbeef00000000000000000000000000000000 0 0 0 0 32) (RETURNDATACOPY 0 0 32) [[1]] (MLOAD 0)}",
-                "nonce" : "0",
-                "storage" : {
-                  "0x00": "0xdeadbeef"
-                }
-            },
-            "deadbeef00000000000000000000000000000000" : {
-                "balance" : "1000000000000000000",
-                "code" : "{  (MSTORE 0 (EXTCODEHASH 0xdeadbeef00000000000000000000000000000001)) (RETURN 0 32) }",
-                "nonce" : "0",
-                "storage" : {
-                  "0x00": "0xdeadbeef"
-                }
-            },
-            "aeadbeef00000000000000000000000000000000" : {
-                "balance" : "1000000000000000000",
-                "code" : "{  (MSTORE 0 (EXTCODESIZE 0xdeadbeef00000000000000000000000000000001)) (RETURN 0 32) }",
-                "nonce" : "0",
-                "storage" : {
-                  "0x00": "0xdeadbeef"
-                }
-            },
-            "deadbeef00000000000000000000000000000001" : {
-                "balance" : "1000000000000000000",
-                "code" : ":raw 0x1234",
-                "nonce" : "0",
-                "storage" : {
-                }
-            },
-            "a94f5374fce5edbc8e2a8697c15331677e6ebf0b" : {
-                "balance" : "1000000000000000000",
-                "code" : "",
-                "nonce" : "0",
-                "storage" : {
-                }
-            }
-        },
-        "transaction" : {
-            "data" : [
-                ""
-            ],
-            "gasLimit" : [
-                "400000"
-            ],
-            "gasPrice" : "10",
-            "nonce" : "0",
-            "secretKey" : "45a915e4d060149eb4365960e6a7a45f334393093061116b197e3240065ff2d8",
-            "to" : "095e7baea6a6c7c4c2dfeb977efac326af552d87",
-            "value" : [
-                "1"
-            ]
-        }
+        ]
     }
 }

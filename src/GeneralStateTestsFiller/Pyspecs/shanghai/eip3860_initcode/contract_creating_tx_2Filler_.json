@@ -1,0 +1,18 @@
+{
+    "contract_creating_tx": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.INITCODE_SIZE_EXCEEDED",
+                "result": {}
+            }
+        ]
+    }
+}

@@ -1,0 +1,30 @@
+{
+    "CreateTransactionRefundEF": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x6295eE1B4F6dD65047762F924Ecd367c17eaBf8f": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x00000000000000000000000000000000005EF94d": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x6000805500000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x00": "0x01"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

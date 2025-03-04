@@ -1,0 +1,34 @@
+{
+    "tload_after_sstore": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0x00",
+                        "code": "0x60ff60005560005c60015560ff60025560025c60035560ff6fffffffffffffffffffffffffffffffff556fffffffffffffffffffffffffffffffff5c7001000000000000000000000000000000005560ff7ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe557ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe5c7fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff55000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x02": "0xff",
+                            "0xffffffffffffffffffffffffffffffff": "0xff",
+                            "0x0100000000000000000000000000000000": "0x00",
+                            "0xfffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe": "0xff",
+                            "0xffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff": "0x00",
+                            "0x01": "0x00",
+                            "0x03": "0x00",
+                            "0x00": "0xff"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

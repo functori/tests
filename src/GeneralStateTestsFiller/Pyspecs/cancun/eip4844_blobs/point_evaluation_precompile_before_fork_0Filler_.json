@@ -1,0 +1,30 @@
+{
+    "point_evaluation_precompile_before_fork": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Shanghai"
+                ],
+                "expectException": null,
+                "result": {
+                    "0x2ADC25665018Aa1FE0E6BC666DaC8Fc2697fF9bA": {
+                        "shouldnotexist": "1"
+                    },
+                    "0x0000000000000000000000000000000000000100": {
+                        "nonce": "0x00",
+                        "balance": "0xffffffffffffffffff",
+                        "code": "0x60006000600060006001600a5af14355000000000000000000000000000000000000000000000000000000000000000000",
+                        "storage": {
+                            "0x01": "0x01"
+                        }
+                    }
+                }
+            }
+        ]
+    }
+}

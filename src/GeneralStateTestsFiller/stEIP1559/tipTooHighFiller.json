@@ -1,0 +1,18 @@
+{
+    "tipTooHigh": {
+        "expect": [
+            {
+                "indexes": {
+                    "data": 0,
+                    "gas": 0,
+                    "value": 0
+                },
+                "network": [
+                    ">=Cancun"
+                ],
+                "expectException": "TransactionException.PRIORITY_GREATER_THAN_MAX_FEE_PER_GAS",
+                "result": {}
+            }
+        ]
+    }
+}
